@@ -7,7 +7,7 @@ export const Container = styled.div`
     background-color: #fff;
     border-radius: 5px;
     padding: 5px 15px;
-    widht: 30%;
+    width: 30%;
 
     @media (max-widht: 750px) {
         width: 20%;
@@ -37,15 +37,18 @@ export const Header = styled.header`
     svg {
         width: 25px;
         height: 25px;
+        align-content: center;
     }
 
 `;
 
 export const HeaderTitle = styled.p`
     font-size: 20px;
+    font-weight: bold;
+    align-content: center;
 `;
 
 export const Total = styled.span`
     font-size: 30px;
-    font-wight: bold;
+    font-weight: bold;
 `;
